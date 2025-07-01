@@ -1,0 +1,15 @@
+Output
+
+Confusion Matrix:
+ [[70  1]
+ [ 2 41]]
+Precision: 0.9761904761904762
+Recall: 0.9534883720930233
+ROC-AUC: 0.99737962659679
+Confusion Matrix @ threshold 0.4:
+ [[70  1]
+ [ 1 42]]
+Precision @ threshold 0.4: 0.9767441860465116
+Recall @ threshold 0.4: 0.9767441860465116
+
+Sigmoid Function: S(z) = 1 / (1 + e^-z) — used in logistic regression to convert output to probability.
